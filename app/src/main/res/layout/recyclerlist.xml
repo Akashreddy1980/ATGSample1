@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/recyclelist1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:id="@+id/cardshow"
+        android:layout_height="130dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        xmlns:card_view="https://schemas.android.com/apk/res-auto"
+        card_view:cardUseCompatPadding="true">
+        <ImageView
+            android:id="@+id/flagshow"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:maxWidth="170dp"
+            android:maxHeight="170dp"
+            android:padding="2dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="TODO" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
